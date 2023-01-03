@@ -50,7 +50,7 @@
 		<commons-dbutils.version>1.7</commons-dbutils.version>
 		<commons-io.version>2.7</commons-io.version>
 		<commons-lang3.version>3.12.0</commons-lang3.version>
-		<commons-text.version>1.9</commons-text.version>
+		<commons-text.version>1.10.0</commons-text.version>
 		<easymock.version>4.3</easymock.version>
 		<el-impl.version>2.2.1-b05</el-impl.version>
 		<flyway-core.version>6.5.7</flyway-core.version> <!-- Latest: 8.2.1 -->
