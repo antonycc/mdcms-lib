@@ -19,6 +19,8 @@
         <id>github</id>
         <name>GitHub Packages</name>
         <url>https://maven.pkg.github.com/antonycc/mdcms-lib</url>
+        <uniqueVersion>false</uniqueVersion>
+        <layout>default</layout>
     </repository>
    </distributionManagement>
 
