@@ -1,0 +1,17 @@
+<!-- Map DTD -->
+<!-- This DTD defines key value pairs to be loaded into a java Map -->
+
+<!-- The top level map element contains a collection of entries -->
+<!ELEMENT map (entry*)>
+
+<!-- An entry contains a single key value pair -->
+<!ELEMENT entry (
+	key
+	,value
+	) >
+
+<!-- The key, if XML parsing control characters should be escaped using declared entities -->
+<!ELEMENT key (#PCDATA)>
+
+<!-- The value, if XML parsing control characters should be escaped using declared entities -->
+<!ELEMENT value (#PCDATA)>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "map.dtd">
+<map>
+   <entry>
+      <key>http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd</key>
+      <value>/cache/0fdf337d-ba10-4b38-8716-9ca473147c66</value>
+   </entry>
+   <entry>
+      <key>http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent</key>
+      <value>/cache/2fbea239-ea23-428f-92ff-4e7a84d32660</value>
+   </entry>
+   <entry>
+      <key>http://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent</key>
+      <value>/cache/55e7e4de-7ee4-4d8a-a027-1d04d8b434ec</value>
+   </entry>
+   <entry>
+      <key>http://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent</key>
+      <value>/cache/b843ba76-c4d9-46da-a2c9-84300bfefc85</value>
+   </entry>
+</map>

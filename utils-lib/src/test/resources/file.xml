@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+   <!-- Set support file like objects -->
+   <bean id="fileLikePaths" class="${fileLikePaths.class}">
+      <property name="filesystemSupported" value="${fileLikePaths.filesystemSupported}"/>
+      <property name="classpathSupported" value="${fileLikePaths.classpathSupported}"/>
+      <property name="httpSupported" value="${fileLikePaths.httpSupported}"/>
+      <property name="bucketSupported" value="${fileLikePaths.bucketSupported}"/>
+      <property name="bucketRegion" value="${fileLikePaths.bucketRegion}"/>
+      <property name="bucketEndpoint" value="${fileLikePaths.bucketEndpoint}"/>
+   </bean>
+
+</beans>

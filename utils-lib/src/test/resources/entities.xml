@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "map.dtd">
+<map>
+   <entry>
+      <key>-//W3C//ENTITIES Latin 1 for XHTML//EN</key>
+      <value>http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent</value>
+   </entry>
+   <entry>
+      <key>-//W3C//ENTITIES Symbols for XHTML//EN</key>
+      <value>http://www.w3.org/TR/xhtml1/DTD/xhtml-symbol.ent</value>
+   </entry>
+   <entry>
+      <key>-//W3C//ENTITIES Special for XHTML//EN</key>
+      <value>http://www.w3.org/TR/xhtml1/DTD/xhtml-special.ent</value>
+   </entry>
+</map>

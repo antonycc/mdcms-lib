@@ -1,0 +1,16 @@
+# Log4j2 logging
+Configuration:
+  name: PropertiesConfig
+  status: error
+  dest: err
+  appenders:
+    Console:
+      name: STDOUT
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: %-4r [%t] %-5p %F:%L %c{1} %x - %m%n
+  loggers:
+    Root:
+      level: info
+      AppenderRef:
+        ref: STDOUT

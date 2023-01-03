@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: src/test/docker/apache2/
+    ports:
+      - 8081:80
+  localstack:
+    image: localstack/localstack:latest
+    environment:
+      SERVICES: s3
+    ports:
+      - 4566:4566
