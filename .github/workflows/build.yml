@@ -1,6 +1,11 @@
 name: Java CI
 
 #on: [push]
+on:
+  push:
+    branches:
+      - fake-branch-6126bea4-e097-4668-993f-31d319f71f05
+      #- main
 
 jobs:
   build:
