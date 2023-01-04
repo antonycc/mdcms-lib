@@ -15,10 +15,20 @@
    </parent>
 
    <scm>
-      <connection>scm:git:git@github.com:antonycc/mdcms-lib.git/persistence</connection>
-      <developerConnection>scm:git:git@github.com:antonycc/mdcms-lib.git/persistence</developerConnection>
+      <connection>scm:git:git@github.com:antonycc/mdcms-lib.git/persistence-lib</connection>
+      <developerConnection>scm:git:git@github.com:antonycc/mdcms-lib.git/persistence-lib</developerConnection>
      <tag>HEAD</tag>
   </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/antonycc/mdcms-lib/persistence-lib</url>
+            <uniqueVersion>false</uniqueVersion>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
 
    <!-- dependency configuration -->
 	<dependencies>

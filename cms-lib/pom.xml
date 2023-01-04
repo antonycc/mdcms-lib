@@ -20,6 +20,16 @@
      <tag>HEAD</tag>
   </scm>
 
+   <distributionManagement>
+      <repository>
+         <id>github</id>
+         <name>GitHub Packages</name>
+         <url>https://maven.pkg.github.com/antonycc/mdcms-lib/cms-lib</url>
+         <uniqueVersion>false</uniqueVersion>
+         <layout>default</layout>
+      </repository>
+   </distributionManagement>
+
    <!-- dependency configuration -->
    <dependencies>
 
