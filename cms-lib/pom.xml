@@ -20,7 +20,7 @@
      <tag>HEAD</tag>
   </scm>
 
-   <distributionManagement>
+   <!--distributionManagement>
       <repository>
          <id>github</id>
          <name>GitHub Packages</name>
@@ -28,7 +28,7 @@
          <uniqueVersion>false</uniqueVersion>
          <layout>default</layout>
       </repository>
-   </distributionManagement>
+   </distributionManagement-->
 
    <!-- dependency configuration -->
    <dependencies>
