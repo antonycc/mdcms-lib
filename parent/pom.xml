@@ -77,7 +77,7 @@
 		<hibernate-core.version>5.6.2.Final</hibernate-core.version><!-- Latest: 6.0.0.Beta2 -->
 		<hibernate-entitymanager.version>5.6.2.Final</hibernate-entitymanager.version><!-- Latest: 6.0.0.Alpha7 -->
 		<hibernate-validator.version>6.2.0.Final</hibernate-validator.version><!-- Latest: 7.0.1.Final -->
-		<hsqldb.version>2.6.1</hsqldb.version>
+		<hsqldb.version>2.7.1</hsqldb.version>
 		<httpclient.version>4.5.13</httpclient.version>
 		<httpcore.version>4.4.15</httpcore.version>
 		<ini4j.version>0.5.4</ini4j.version>
