@@ -9,7 +9,7 @@
 	<name>${project.artifactId}</name>
 	<description>A parent defining versions of libraries and versions and configuration of plug-ins</description>
 
-	<distributionManagement>
+	<!--distributionManagement>
 		<snapshotRepository>
 			<id>github</id>
 			<name>GitHub Packages</name>
@@ -24,7 +24,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<layout>default</layout>
 		</repository>
-	</distributionManagement>
+	</distributionManagement-->
 
 	<!--
 	Maybe switch to: https://commons.apache.org/commons-parent-pom.html
