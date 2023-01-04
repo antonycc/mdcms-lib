@@ -18,6 +18,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Publish package
-        run: mvn --debug --batch-mode -DaltDeploymentRepository=snapshots::default::https://maven.pkg.github.com/antonycc/mdcms-lib -DaltSnapshotDeploymentRepository=snapshots::default::https://maven.pkg.github.com/antonycc/mdcms-lib -DaltReleaseDeploymentRepository=releases::default::https://maven.pkg.github.com/antonycc/mdcms-lib deploy
+        run: mvn --debug --batch-mode -DaltDeploymentRepository=snapshots::default::https://maven.pkg.github.com/antonycc/mdcms-lib deploy
+        #run: mvn --debug --batch-mode -DaltDeploymentRepository=snapshots::default::https://maven.pkg.github.com/antonycc/mdcms-lib -DaltSnapshotDeploymentRepository=snapshots::default::https://maven.pkg.github.com/antonycc/mdcms-lib -DaltReleaseDeploymentRepository=releases::default::https://maven.pkg.github.com/antonycc/mdcms-lib deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
