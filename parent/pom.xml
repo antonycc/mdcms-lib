@@ -81,7 +81,7 @@
 		<httpclient.version>4.5.13</httpclient.version>
 		<httpcore.version>4.4.15</httpcore.version>
 		<ini4j.version>0.5.4</ini4j.version>
-		<jackson-core.version>2.13.0</jackson-core.version>
+		<jackson-core.version>2.13.4.1</jackson-core.version>
 		<jakarta.el-api.version>3.0.3</jakarta.el-api.version><!-- Latest: 4.0.0 -->
 		<jakarta.jms-api.version>3.0.0</jakarta.jms-api.version>
 		<jakarta.mail-api.version>1.6.7</jakarta.mail-api.version><!-- Latest: 2.1.0-RC1 -->
