@@ -108,7 +108,7 @@
 		<reflections.version>0.9.12</reflections.version><!-- Latest: 0.10.2 -->
 		<slf4j-api.version>1.7.32</slf4j-api.version><!-- Latest: 2.0.0-alpha5 -->
 		<spring-boot.version>2.7.6</spring-boot.version><!-- Latest: 3.0.0 -->
-		<spring-core.version>5.3.13</spring-core.version><!-- Latest: 5.3.13,5.2.7.RELEASE -->
+		<spring-core.version>6.0.0</spring-core.version><!-- Latest: 5.3.13,5.2.7.RELEASE -->
 		<spring-data-jpa.version>2.6.0</spring-data-jpa.version><!-- Consider linking to spring-boot, Latest: 2.6.0, 2.3.2.RELEASE -->
 		<spring-cql.version>1.5.23.RELEASE</spring-cql.version>
 		<spring-ldap-core.version>2.6.0</spring-ldap-core.version>
