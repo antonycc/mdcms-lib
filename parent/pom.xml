@@ -9,6 +9,23 @@
 	<name>${project.artifactId}</name>
 	<description>A parent defining versions of libraries and versions and configuration of plug-ins</description>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/antonycc/mdcms-lib</url>
+			<uniqueVersion>false</uniqueVersion>
+			<layout>default</layout>
+		</snapshotRepository>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/antonycc/mdcms-lib</url>
+			<uniqueVersion>false</uniqueVersion>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
+
 	<!--
 	Maybe switch to: https://commons.apache.org/commons-parent-pom.html
 	-->
@@ -129,23 +146,6 @@
 		<developerConnection>scm:git:git@github.com:antonycc/mdcms-lib.git/parent</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
-
-	<distributionManagement>
-		<snapshotRepository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/antonycc/mdcms-lib/parent</url>
-			<uniqueVersion>false</uniqueVersion>
-			<layout>default</layout>
-		</snapshotRepository>
-		<repository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/antonycc/mdcms-lib/parent</url>
-			<uniqueVersion>false</uniqueVersion>
-			<layout>default</layout>
-		</repository>
-	</distributionManagement>
 
 	<repositories>
 	</repositories>
