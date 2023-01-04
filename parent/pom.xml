@@ -131,6 +131,13 @@
   </scm>
 
 	<distributionManagement>
+		<snapshotRepository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/antonycc/mdcms-lib/parent</url>
+			<uniqueVersion>false</uniqueVersion>
+			<layout>default</layout>
+		</snapshotRepository>
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
