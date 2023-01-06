@@ -18,17 +18,14 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      #- name: maven-settings
+      - name: Generate Maven settings
+      # See: https://github.com/marketplace/actions/maven-settings-action
       - uses: s4u/maven-settings-action@v2.8.0
         with:
-          #servers: '[{"id": "github", "username": "not-used", "password": "${GITHUB_TOKEN_REF}"}]'
-          servers: '[{"id": "github", "username": "${GITHUB_ACTOR}", "password": "${GITHUB_TOKEN}"}]'
+          # ${GITHUB_ACTOR}
+          servers: '[{"id": "github", "username": "unused-fake-name", "password": "${GITHUB_TOKEN}"}]'
           githubServer: false
       - name: Publish package
-        #run: mvn --batch-mode deploy
         run: mvn --batch-mode -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/antonycc/mdcms-lib deploy
-        #run: mvn --debug --batch-mode -DaltDeploymentRepository=github::default::https://maven.pkg.github.com/antonycc/mdcms-lib -DaltSnapshotDeploymentRepository=snapshots::default::https://maven.pkg.github.com/antonycc/mdcms-lib -DaltReleaseDeploymentRepository=releases::default::https://maven.pkg.github.com/antonycc/mdcms-lib deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          #GITHUB_TOKEN_REF: ${{ secrets.GH_PAT_FOR_ACTIONS_TOKEN }}
-# See: https://maurocanuto.medium.com/using-github-private-packages-and-maven-in-github-actions-c9e2ea69e2bc
