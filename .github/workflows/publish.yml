@@ -18,9 +18,9 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Generate Maven settings
       # See: https://github.com/marketplace/actions/maven-settings-action
-      - uses: s4u/maven-settings-action@v2.8.0
+      - name: Generate Maven settings for GitHub Packages
+        uses: s4u/maven-settings-action@v2.8.0
         with:
           # ${GITHUB_ACTOR}
           servers: '[{"id": "github", "username": "unused-fake-name", "password": "${GITHUB_TOKEN}"}]'
